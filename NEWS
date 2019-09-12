@@ -19,7 +19,9 @@ documents those changes that are of interest to users and administrators.
  -- Optimize getting wckey and associations usage.
  -- Keep SLURM_MPI_TYPE variable in srun when not set to 'none'.
  -- Remove slurm.spec-legacy packaging file.
- -- Test NEWS for integration
+ -- Test NEWS for integration 
+ -- Test of integration private gitlab -> public github (no one allowed to push
+    to protected branch)
 
 * Changes in Slurm 19.05.3
 ==========================

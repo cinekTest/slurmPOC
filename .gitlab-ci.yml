@@ -1,0 +1,15 @@
+image: giovtorres/docker-centos7-slurm
+
+stages:
+  - build
+  - test
+
+buildJob:
+  stage: build
+  script: ./configure && make -j 5 && make install  
+
+testJob:
+  stage: test
+  script: cd ./testsuite/expect && ./regression
+
+
